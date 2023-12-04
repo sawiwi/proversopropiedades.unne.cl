@@ -13,8 +13,8 @@ const AboutComponent = () => {
   return (
     <Section>
     {/* <Fade delay={300} direction="right"> */}
-    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-4">
-      <div className="col-span-1 md:col-span-1 xl:col-span-2 flex flex-col justify-center mx-2 xl:ml-24">
+    <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 gap-1">
+      <div className="col-span-1 md:col-span-1 xl:col-span-2 flex flex-col justify-center mx-2 xl:ml-6">
         <h2 className="text-6xl xl:text-5xl text-center  text-primary font-bold">
             Sobre mí
           </h2>
@@ -30,8 +30,8 @@ const AboutComponent = () => {
               </div>)
             :null}
           </div>
-          <div className="col-span-2 xl:col-span-1 flex flex-col">
-            <p className="text-lg xl:text-xl text-gray-700 mt-8 ml-0 xl:ml-5 md:text-center  xl:text-left">
+          <div className="col-span-2 xl:col-span-1">
+            <p className="text-lg xl:text-xl text-gray-700 mt-8 ml-0 xl:ml-1 xl:text-left">
             Me dedico a la gestión de propiedades con un historial de 9 años de experiencia en este sector. Actualmente, administro una cartera diversificada de propiedades, ofreciendo servicios de arriendo y ventas tanto en modalidades anuales como por periodos más cortos, incluyendo arriendos por días. Mi área de trabajo abarca la totalidad de la Quinta Región, desde Valparaíso hasta Quillota
               <br />
               <br />
@@ -42,11 +42,10 @@ const AboutComponent = () => {
               <br />
               <br /> */}
             </p>
-
-            <p className="text-lg xl:text-xl text-gray-700 mt-8 ml-0 xl:ml-5 md:text-center xl:text-left">
+            <p className="text-lg xl:text-xl text-gray-700 mt-8 ml-0 xl:ml-1 md:text-center xl:text-left">
               Angela Leiton Medina.
             </p>
-            <p className="text-xl xl:text-xl text-gray-700 ml-0 xl:ml-5 md:text-center xl:text-left">
+            <p className="text-xl xl:text-xl text-gray-700 ml-0 xl:ml-1 md:text-center xl:text-left">
               Fundador y Gerente General.
             </p>
           </div>
@@ -56,7 +55,7 @@ const AboutComponent = () => {
   
       </div>
       <div className="col-span-1 md:col-span-1 xl:col-span-1 flex flex-col justify-center mx-2 xl:ml-24">
-      <MeetingForm 
+        <MeetingForm 
             title="Contacto corredor"
             subtitle="Enviar mensaje"
           />
